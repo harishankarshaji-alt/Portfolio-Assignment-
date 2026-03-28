@@ -18,7 +18,7 @@ Developed an automated vending system to dispense stationery items efficiently. 
 - Year: 2025 - 2029
 
 ## 🌐 Live Website
-👉 https://your-username.github.io/portfolio
+👉 https://harishankarshaji-alt.github.io/Portfolio-Assignment-/
 
 ## 📞 Contact
 - 📧 Email: harishankarshaji@gmail.com  
