@@ -23,6 +23,6 @@ Developed an automated vending system to dispense stationery items efficiently. 
 ## 📞 Contact
 - 📧 Email: harishankarshaji@gmail.com  
 - 📱 WhatsApp: +918891222991
-- 🔗 LinkedIn: https://linkedin.com/in/YOUR-USERNAME  
+- 🔗 LinkedIn: https://www.linkedin.com/in/harishankar-shaji-79777837b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
 ---
