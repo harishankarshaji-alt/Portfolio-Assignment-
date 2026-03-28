@@ -1,1 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harishankar Shaji | Developer</title>
 
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, Arial, sans-serif;
+    background: linear-gradient(135deg, #0a0f1f, #1a0f2e);
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 25px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    color: #7c3aed;
+}
+
+nav a {
+    color: #e2e8f0;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* HERO */
+.hero {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero span {
+    background: linear-gradient(90deg, #7c3aed, #38bdf8);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    color: #94a3b8;
+    margin-top: 8px;
+}
+
+/* SECTION */
+section {
+    max-width: 850px;
+    margin: auto;
+    padding: 40px 15px;
+}
+
+h2 {
+    color: #7c3aed;
+    margin-bottom: 15px;
+}
+
+/* CARD */
+.card {
+    background: rgba(124, 58, 237, 0.08);
+    border: 1px solid rgba(124, 58, 237, 0.2);
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills div {
+    background: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    padding: 6px 12px;
+    margin: 4px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+
+/* CONTACT */
+.contact a {
+    display: inline-block;
+    margin: 6px;
+    padding: 7px 14px;
+    background: linear-gradient(90deg, #7c3aed, #38bdf8);
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #94a3b8;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+    <h2>Harishankar</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#strengths">Strengths</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>Hi, I'm <span>Harishankar Shaji</span></h1>
+        <p id="typing"></p>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a motivated and detail-oriented developer with a strong interest 
+            in building practical and user-friendly solutions. I work with C, Python, 
+            and web technologies like HTML and CSS.
+        </p>
+
+        <p style="margin-top:10px;">
+            I focus on solving real-world problems through technology. One of my key 
+            projects is a Stationery Vending Machine designed to improve accessibility 
+            for students.
+        </p>
+
+        <p style="margin-top:10px;">
+            I am continuously learning and aiming to become a professional software developer.
+        </p>
+    </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <p><strong>Pursuing BTech CSE</strong></p>
+        <p>Year: 2025 - 2029</p>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div>C Programming</div>
+        <div>Python</div>
+        <div>HTML</div>
+        <div>CSS</div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+        <h3>Stationery Vending Machine</h3>
+        <p>
+            Designed and developed an automated vending system to dispense 
+            stationery items efficiently. The project focuses on usability, 
+            cost-effectiveness, and real-world implementation in schools.
+        </p>
+    </div>
+</section>
+
+<!-- STRENGTHS -->
+<section id="strengths">
+    <h2>Strengths</h2>
+    <div class="card">
+        <ul>
+            <li>Problem-solving mindset</li>
+            <li>Quick learner</li>
+            <li>Adaptable to new technologies</li>
+            <li>Team collaboration skills</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+        <a href="https://wa.me/918891222991">WhatsApp</a>
+        <a href="harishankarshaji@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/harishankar-shaji-79777837b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Harishankar Shaji</p>
+</footer>
+
+<script>
+const roles = ["Developer", "Problem Solver", "Tech Enthusiast"];
+let i = 0, j = 0, text = "", del = false;
+
+function type() {
+    text = roles[i];
+    document.getElementById("typing").textContent = text.substring(0, j);
+
+    if (!del && j < text.length) {
+        j++;
+        setTimeout(type, 100);
+    } else if (del && j > 0) {
+        j--;
+        setTimeout(type, 50);
+    } else {
+        del = !del;
+        if (!del) i = (i + 1) % roles.length;
+        setTimeout(type, 800);
+    }
+}
+type();
+</script>
+
+</body>
+</html>
